@@ -48,6 +48,36 @@ main {
     transition: filter 0.3s ease;
 }
 
+.travel-card-link .show-more-pill {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.travel-card-link:hover .show-more-pill,
+.travel-card-link:focus .show-more-pill {
+    opacity: 1;
+}
+
+.travel-card-link .card-img-top {
+    transition: filter 0.3s;
+}
+
+.travel-card-link:hover .card-img-top,
+.travel-card-link:focus .card-img-top {
+    filter: brightness(0.7);
+}
+
 .city-img:hover {
     filter: blur(1.5px);
 }

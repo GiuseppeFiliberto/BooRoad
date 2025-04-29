@@ -13,8 +13,8 @@ export default function Header() {
                         </Link>
                     </div>
 
-                    <Link to="/add-travel" className="nav-link text-dark add-travel">
-                        Aggiungi Viaggio
+                    <Link to="/add-travel" className="nav-link add-travel">
+                        <button className="btn btn-dark rounded text-white">Aggiungi nuovo viaggio</button>
                     </Link>
                 </div>
             </nav>

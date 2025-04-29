@@ -4,9 +4,12 @@ export default function TravelCards({ destination }) {
     return (
         <>
             <div className="col-sm-12 col-md-6 col-lg-4">
-                <Link className="card shadow h-100" to={`/Traveldetailcard/${destination.id}`}>
-                    <div>
+                <Link className="card shadow h-100 travel-card-link" to={`/Traveldetailcard/${destination.id}`} style={{ position: "relative", overflow: "hidden" }}>
+                    <div style={{ position: "relative" }}>
                         <img src={destination.img} alt={destination.destination} className="card-img-top city-img" />
+                        <span className="show-more-pill">
+                            mostra di più
+                        </span>
                     </div>
                     <div className="card-body">
                         <h2 className="fw-bold">
