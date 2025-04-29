@@ -209,7 +209,7 @@ export default function AddTravel() {
                     </div>
                     <div className="mt-4">
                         <button className="btn btn-dark" type="submit">
-                            Add Traveller
+                            Aggiungi Viaggio
                         </button>
                     </div>
                 </div>
