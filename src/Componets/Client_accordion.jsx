@@ -12,14 +12,14 @@ export default function Clientaccordion({ client }) {
                     <div className="accordion-body">
                         <p><strong>Codice Fiscale:</strong> {client.codiceFiscale}</p>
                         <p>
-                            <strong>Phone:</strong> {client.phone}
+                            <strong>Cellulare:</strong> {client.phone}
                             <a
                                 href={`tel:${client.phone}`}
                                 className="call-btn"
                                 title="Chiama"
                             >
                                 <i className="bi bi-telephone"></i>
-                                <span style={{ marginLeft: '4px' }}>Call</span>
+                                <span style={{ marginLeft: '4px' }}>Chiama</span>
                             </a>
                         </p>
                         <p><strong>Email:</strong> {client.email}</p>

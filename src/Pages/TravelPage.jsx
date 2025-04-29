@@ -26,10 +26,10 @@ export default function Traveldetailcard() {
                         <h1 className="fw-bold">{destination.destination}</h1>
                         <p>{destination.description}</p>
                         <p>
-                            <strong>Departure:</strong> {destination.departureDate}<br />
-                            <strong>Return:</strong> {destination.returnDate}<br />
-                            <strong>Participants:</strong> {destination.participants}<br />
-                            <strong>Tour Leader:</strong> {destination.tourLeader}
+                            <strong>Partenza:</strong> {destination.departureDate}<br />
+                            <strong>Ritorno:</strong> {destination.returnDate}<br />
+                            <strong>Partecipanti:</strong> {destination.participants}<br />
+                            <strong>Group Leader:</strong> {destination.tourLeader}
                         </p>
                     </div>
                     <div className="col-sm-12 col-lg-6">
@@ -42,12 +42,12 @@ export default function Traveldetailcard() {
 
                 <div className="accordion">
                     {/* Accordion for client details */}
-                    <h2 className="mb-4 mt-3">Client Details</h2>
+                    <h2 className="mb-4 mt-3">Lista Partecipanti</h2>
 
                     <input
                         type="text"
                         className="form-control mb-3"
-                        placeholder="Search clients..."
+                        placeholder="Cerca Partecipante"
                         value={searchWord}
                         onChange={(e) => setSearchword(e.target.value)}
                     />
