@@ -1,10 +1,10 @@
 export default function AddTravel() {
     return (
         <div className="container my-5">
-            <h2 className="mb-4">Add new travel</h2>
+            <h1 className="mb-4 fw-bold">Add new travel</h1>
 
             <div className="add-travel mb-5">
-                <h3 className="mb-4">Travel details</h3>
+                <h2 className="mb-4 fw-bold">Travel details</h2>
 
                 <div className="row g-3">
                     <div className="col-md-6">
@@ -45,7 +45,7 @@ export default function AddTravel() {
             </div>
 
             <div className="add-traveller">
-                <h3 className="mb-4">New Traveller</h3>
+                <h2 className="mb-4 fw-bolder">New Traveller</h2>
 
                 <div className="row g-3">
                     <div className="col-md-6">

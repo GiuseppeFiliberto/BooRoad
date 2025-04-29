@@ -6,7 +6,8 @@ export default function HomePage() {
 
     return (
         <>
-            <div className="container p-3 mt-5">
+            <div className="container p-3 mt-3">
+                <h1 className="fw-bold my-4">Current Travels</h1>
                 <div className="row g-4">
                     {
                         Destinations.map(destination =>

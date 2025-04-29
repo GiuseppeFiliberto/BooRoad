@@ -12,9 +12,9 @@ export default function Header() {
                             <img src="/images/BooRoad.png" alt="Logo" style={{ width: "80px" }} />
                         </Link>
 
-                        <Link to="/add-travel" className="nav-link text-dark add-travel">
+                        {/* <Link to="/add-travel" className="nav-link text-dark add-travel">
                             Add travel
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </nav>
